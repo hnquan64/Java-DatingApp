@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:background="@color/md_grey_100"
+    >
+<!--    main layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <!--name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/cardview_dark_background"
+                android:fontFamily="@font/lato_bold"
+                android:text="Bình Luật"
+                android:textSize="30sp"
+                android:paddingStart="20sp"
+                android:paddingTop="10dp"
+                android:paddingEnd="20sp"/>
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/lato_regular"
+                android:textColor="@color/cardview_dark_background"
+                android:text="20"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_down" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_regular"
+            android:paddingVertical="3dp"
+            android:text="Đại học Công nghệ Thông tin"
+            android:paddingLeft="20sp" />
+
+        <TextView
+            android:id="@+id/userSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_regular"
+            android:paddingVertical="3dp"
+            android:text="Nam"
+            android:paddingLeft="20sp" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_regular"
+            android:paddingTop="3dp"
+            android:text="TP. Hồ Chí Minh"
+            android:paddingLeft="20sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_top"
+                android:fontFamily="@font/lato_regular"
+                android:paddingLeft="20dp"
+                android:paddingVertical="7dp"
+                android:text="Giới thiệu bản thân"
+                android:textColor="@color/darkGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:text=""
+                android:background="@color/white"
+                android:id="@+id/introduce"
+                android:fontFamily="@font/lato_regular"
+    />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_top"
+                android:fontFamily="@font/lato_regular"
+                android:paddingLeft="20dp"
+                android:paddingVertical="7dp"
+                android:text="Sở thích"
+                android:textColor="@color/darkGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:text=""
+                android:background="@color/white"
+                android:fontFamily="@font/lato_regular"
+                android:id="@+id/hobbies"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+

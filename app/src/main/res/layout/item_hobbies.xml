@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/hobbies1"
+    android:gravity="center"
+    android:button="@null"
+    android:textSize="15dp"
+    android:background="@drawable/hobby_background"
+    android:textColor="@drawable/hobby_background"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="7dp">
+
+</CheckBox>
