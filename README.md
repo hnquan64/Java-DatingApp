@@ -1,2 +1,1 @@
-# Java-DatingWebapp
 # Java-DatingApp
